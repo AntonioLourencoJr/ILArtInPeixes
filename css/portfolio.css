@@ -1,0 +1,89 @@
+
+.intro-produtos{
+	background: url("../imagens/portfolio-cabecalho.jpg") no-repeat center;
+	background-size: cover;
+}
+
+.comentario-cliente{
+	padding: 40px 0;
+	max-width: 350px;
+	margin: 0 auto;
+}
+.comentario-cliente p{
+	text-align: center;
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 18px;
+	line-height: 25px;
+	font-style: italic;
+	margin-bottom: 20px;
+}
+
+.comentario-cliente cite{
+	font-size: 18px;
+	font-weight: bold;
+	text-align: right;
+	float: right;
+	font-style: normal;
+}
+
+.portfolio-fundo{
+	width: 100%;
+	background: #459298;
+	padding: 40px 0;
+}
+/*Plugsin Slide*/
+.rslides, .rslides-portfolio {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li, .rslides-portfolio li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child ,.rslides-portfolio li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img, .rslides-portfolio img  {
+  display: block;
+  height: auto;
+  width: 100%;
+  border: 0;
+  }
+
+
+.rslides_tabs{
+	text-align: center;
+	margin-top: 14px;
+}
+.rslides_tabs li{
+	display: inline-block;
+	margin: 0 5px;
+}
+.rslides_tabs li a{
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	background: #b1b1b1;
+	color: #b1b1b1;
+	border-radius: 20px;
+	overflow: hidden;
+	text-indent: -100px;  	
+}
+
+.rslides_tabs li a:hover, .rslides_tabs li.rslides_here a{
+	background: #f3c63e;
+	color: #f3c63e;
+}

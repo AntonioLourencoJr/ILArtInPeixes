@@ -1,0 +1,439 @@
+@charset "utf-8";
+@font-face {
+  font-family: feltro;
+  src: url(font/patchwork_stitchlings.ttf);
+}
+
+/*#459298 = AZUL */
+/*#b2bc7a = VERDE */
+/*#f1bf02 = amarelo */
+
+body {
+  font-family: arial, Helvetica, sans-serif;
+  background-color: #dddddd;
+  color: rgba(0, 0, 0, 1);
+}
+p {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+.btn {
+  padding: 10px 30px;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  transition: all 0.5s ease;
+}
+.btn-azul {
+  border: 2px solid #449298;
+  color: #449298;
+}
+.btn-amarelo {
+  border: 2px solid #f1bf02;
+  color: #f1bf02;
+}
+.subtitulo {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  color: #000;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.subtitulo-interno {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  color: #000;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+/*cabecalho===========================================*/
+.logo {
+  padding: 10px 0px;
+}
+.header {
+  position: sticky; /*fixa menu*/
+  top: 0px; /*fixa o menu*/
+  width: 100%;
+  background: #f1bf02;
+  padding: 5px 0;
+  -webkit-box-shadow: 0px 0px 9px 0px rgba(115, 113, 115, 1);
+  -moz-box-shadow: 0px 0px 9px 0px rgba(115, 113, 115, 1);
+  box-shadow: 0px 0px 9px 0px rgba(115, 113, 115, 1);
+  z-index: 10; /*cima de tudo*/
+}
+.header-logo-ancora {
+  display: none;
+}
+.header a.peixe-direita {
+  margin-top: 10px;
+}
+.header-menu {
+  text-align: center;
+}
+.header-menu ul li {
+  display: inline-block;
+  margin-left: 25px;
+  margin-top: 10px;
+}
+.header-menu ul li a {
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 5px 0;
+  transition: all 0.6s ease;
+}
+.header-menu ul li a::after {
+  content: "";
+  display: block;
+  width: 1%;
+  height: 2px;
+  background: #f1bf02;
+  margin: 0 auto;
+  transition: 1.5s ease-in-out;
+}
+.header-menu ul li a:hover::after {
+  transition: 0.5s ease-in-out;
+  width: 100%;
+  background: #000000;
+}
+
+/* HOME ===========================*/
+.carrossel-home ul li img {
+  padding-top: 40px;
+}
+
+/* idealizacao ===========================*/
+
+.ideia-intro {
+  padding: 40px 0;
+}
+
+.ideia-intro h3 {
+  font-size: 24px;
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  line-height: 10px;
+}
+.ideia-intro p {
+  padding-top: 12px;
+}
+/*INTRODUCAO ============================*/
+
+.introducao h1 {
+  font-size: 48px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  width: 100%;
+  height: 160px;
+  padding-top: 45px;
+}
+/*PRODUTOS ==============================*/
+
+.produtos {
+  width: 100%;
+  background: #459298;
+  padding: 40px 0;
+}
+.produtos li {
+  background: #b2bc7a;
+  text-align: center;
+}
+.produtos li h3 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-top: 20px;
+}
+.produtos li p {
+  padding: 10px 20px 20px 20px;
+}
+.prod-sem-funto {
+  background: none;
+}
+.prod-interno {
+  background: #b2bc7a;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding: 25px;
+}
+
+.prod-texto p {
+  padding: 25px 0 0 40px;
+}
+.prod-texto-d p {
+  padding: 25px 40px 0 0px;
+}
+
+.call {
+  padding-top: 40px;
+  text-align: center;
+  clear: both;
+}
+.call p {
+  margin-bottom: 20px;
+}
+/*PORTFOLIO ======================*/
+.portfolio-top {
+  padding: 40px 0;
+}
+.portfolio div:first-of-type {
+  padding-bottom: 20px;
+}
+
+.intro-produtos {
+  background: url("../imagens/portfolio-cabecalho.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.comentario-cliente {
+  padding: 40px 0;
+  max-width: 350px;
+  margin: 0 auto;
+}
+.comentario-cliente p {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 18px;
+  line-height: 25px;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.comentario-cliente cite {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: right;
+  float: right;
+  font-style: normal;
+}
+
+.portfolio-fundo {
+  width: 100%;
+  background: #459298;
+  padding: 40px 0;
+}
+/*Plugsin Slide*/
+.rslides,
+.rslides-portfolio {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.rslides li,
+.rslides-portfolio li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+.rslides li:first-child,
+.rslides-portfolio li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+}
+
+.rslides img,
+.rslides-portfolio img {
+  display: block;
+  height: auto;
+  width: 100%;
+  border: 0;
+}
+
+.rslides_tabs {
+  text-align: center;
+  margin-top: 14px;
+}
+.rslides_tabs li {
+  display: inline-block;
+  margin: 0 5px;
+}
+.rslides_tabs li a {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: #b1b1b1;
+  color: #b1b1b1;
+  border-radius: 20px;
+  overflow: hidden;
+  text-indent: -100px;
+}
+
+.rslides_tabs li a:hover,
+.rslides_tabs li.rslides_here a {
+  background: #f3c63e;
+  color: #f3c63e;
+}
+/*ARTISTA ======================*/
+.artista {
+  background: #459298;
+  padding: 40px 0;
+}
+.artista-resumo h3 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 20px;
+}
+.artista-resumo p {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.espaco {
+  padding-bottom: 20px;
+}
+/*Quebra Rodape ====================*/
+.quebra {
+  width: 100%;
+  height: 150px;
+  background: url("../imagens/rodape.jpg") no-repeat center;
+  background-size: cover;
+  text-align: center;
+  padding-top: 40px;
+}
+.quote-quebra p {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.1em;
+}
+.quote-quebra cite {
+  font-weight: bold;
+}
+
+/*Rodape footer ====================*/
+.footer {
+  width: 100%;
+  background: #b2bc7a;
+  color: #000;
+  padding: 20px 0;
+}
+.footer h3 {
+  font-weight: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.footer-historia {
+  padding-right: 40px;
+}
+
+.footer-contato ul li {
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Georgia, "Times New Roman", serif;
+}
+.footer-redes ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+.footer-redes ul li a {
+  border: 3px solid #fec63e;
+  display: block;
+  padding: 5px;
+  transition: all 0.5s ease;
+}
+.footer-redes ul li a:hover {
+  border-color: #459298;
+  color: #459298;
+}
+
+.copy {
+  width: 100%;
+  background: #f1bf02;
+  padding: 10px 0;
+}
+
+/*Animacoes*/
+.logo,
+.header,
+.ideia-intro div,
+.ideia-intro img,
+.produtos,
+.produtos h2,
+.produtos li,
+.animar-interno,
+.introducao-interna,
+.carrossel-home,
+.portfolio-animar,
+.portfolio-animar ul {
+  opacity: 0;
+}
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -20px, 0);
+    transform: translate3d(0, -20px, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}
+
+@-webkit-keyframes fadeInDownBig {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -2000px, 0);
+    transform: translate3d(0, -2000px, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}

@@ -1,0 +1,246 @@
+
+
+/* tablets*/
+@media only screen and (min-width: 768px) and (max-width: 959px){
+
+.header-logo-ancora{
+	display: none;
+}
+.header-menu ul li{
+    margin-top: 2px;
+}
+.header a.peixe-direita {
+    margin-top: 5px;
+}
+/*INTRODUCAO=============================================*/
+.intro-produtos{
+	font-size: 56px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    height: 160px;
+    padding-top: 25px;
+}
+/*qualidade============================================*/
+.qualidade:after{
+	top: 209px;
+	right: 66px;
+}
+.qualidade-lista li{
+	padding: 0 10px;
+}
+/*i========================================================*/
+.introducao h1{
+	font-size: 35px;
+	line-height: 30px;
+}
+/*rodape===============================================*/
+.footer-redes ul li a img{
+	width: 28px;
+	height: 28px;
+}
+/*produtos=========================================*/
+.produto-item h2{
+	top: -140px;
+	margin-bottom: -50px; 	
+}
+.produto-icone{
+	padding: 41px 0;
+}
+.produtos p{
+	font-size: 12.5px;
+}
+.prod-texto p{
+    padding: 10px 0 0 40px;
+}
+.prod-texto-d p{
+    padding: 10px 40px 0 0px;
+}
+/* idealizacao ===========================*/
+.ideia-intro p{
+    padding-top: 5px;
+}
+.ideia-intro img{
+	padding-top: 30px;
+}
+.ideia-quebra{
+	height: 200px;
+}
+/* idealizacao ===========================*/
+.artista-resumo img{
+	margin: 0 auto 0px auto;
+}
+.artista-resumo p{
+	font-size: 12px;
+	padding-bottom: 0px;
+}
+/* idealizacao ===========================*/
+
+
+
+
+
+}
+/*celular==========================================================================*/
+@media only screen and (max-width: 767px){
+
+.header{
+	position: relative;
+	padding-bottom: 0px;
+}
+.header-logo{
+	display: none;
+}
+.header-logo-ancora{
+	display: block;
+}
+.header img {
+	margin: 0 auto 20px auto;
+	position: relative;
+	top: 10px;
+	margin-bottom: -50px;
+	display: none;
+}
+.peixe-direita img{
+	top: -60px;	
+}
+.header-menu{
+	text-align: center;
+}
+
+.header-menu ul{
+	padding-top: 15px;
+}
+
+.header-menu ul li{
+	margin: 5px;
+}
+
+.header-menu ul li a{
+	border: 4px solid #459298;
+	width: 136px;
+	display: block;
+	float: left;
+}	
+.header-menu ul li a:hover{
+	border-color: #fff;
+}
+.header-menu ul li a.menu-ativo{
+	border-color: #fff;
+}	
+/*introducao=============================================================================*/
+.introducao{
+	margin-top: 0px;
+	padding-top: 50px;
+	/**background: url("../img/bg-mobile.jpg") no-repeat center;*/
+	background-size: cover;
+}
+.introducao h1{
+	font-size: 25px;
+	line-height: 30px;
+}
+
+/*introducao interna======================================================================*/
+.introducao-interna{
+	margin-top: 0px;
+}
+.intro-produto{
+	width: 100px
+}
+.missao-sobre p{
+	font-size: 14px;
+	line-height: 20px;
+	padding-right: 0px;
+}
+.missao-sobre ul li{
+	font-size: 14px;
+	line-height: 25px;
+}
+
+/*call===============================================================================*/
+.call{
+	padding-top: 10px;
+}
+.qualidade:after{
+	display: none;
+}
+.copy{
+	padding: 10px 0;
+}
+.copy p{
+	font-size: 13px;
+}
+
+/*produtos========================================================================*/
+.produto-item h2{
+	top: -100px;
+	margin-bottom: -65px; 	
+}
+.produto-icone{
+	padding: 41px 0;
+}
+.produto-info p{
+	font-size: 14px;
+	line-height: 20px;
+	padding: 20px 30px;
+	height: auto;
+}
+.prod-texto p{
+    padding: 0px;
+    text-align: justify;
+}
+.prod-texto-d p{
+    padding: 0px;
+    text-align: justify;
+    
+}
+.produto-info ul li{
+	width: 149px;
+	height: 49px;
+	font-size: 14px;
+	line-height: 20px;
+	font-style: bold;
+}
+.form {
+	padding-right: 0px; 
+}
+.orcamento-dados ul{
+	padding-right: 0px; 
+}
+/*IDEALIZACAO ================================================*/
+.ideia-quebra{
+	height: 150px;
+}
+
+/*portfolio==========================================================================*/
+.portfolio div:first-of-type{
+	padding: 0px;
+}
+/*artista ========================================================================*/
+
+.espaco{
+	margin: 0px;
+}
+/*quebra ==========================================================================*/
+.quebra{
+    padding-top: 15px;
+    color: #eee;
+}
+
+/*contato==========================================================================*/
+.contato-form {
+	padding-right: 0px;
+	margin-bottom: 40px; 
+}
+
+
+.footer{
+    padding: 0px;
+}
+
+.copy{
+    padding: 5px ;
+}
+
+}

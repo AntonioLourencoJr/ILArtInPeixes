@@ -1,0 +1,38 @@
+
+.intro-produtos{
+	background: url("../imagens/idealizacao-cabecalho.jpg") no-repeat center;
+	background-size: cover;
+}
+.ideia{
+	padding: 40px 0;
+}
+.ideia h2{
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 25px;
+	letter-spacing: .1em;
+	
+}
+.ideia h3{
+	font-style: italic;
+	margin: 10px 0;
+}
+.ideia ul {
+	padding-left: 20px;
+}
+.ideia ul li{
+	margin: 5px 0;
+}
+.ideia ul li:nth-child(3){
+	padding-left: 20px;
+}
+.ideia-historia{
+	background: #459298 ;
+	width: 100%;
+}
+.ideia-quebra{
+	width: 100%;
+	height: 460px;
+	background: url("../imagens/idealizacao-coroua.jpg") no-repeat center;
+	background-size: cover;
+}

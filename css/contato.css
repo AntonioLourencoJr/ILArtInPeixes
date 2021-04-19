@@ -1,0 +1,69 @@
+.intro-produtos {
+  background: url("../imagens/contato-cabecalho.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.contato {
+  padding: 40px 0;
+}
+.contato-form label {
+  display: block;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 4px;
+}
+.contato-form input {
+  display: block;
+  width: 100%;
+  border: 2px solid #459298;
+  background: none;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  outline: none;
+  font-size: 14px;
+  font-family: Georgia, "Times New Roman", serif;
+}
+.contato-form textarea {
+  display: block;
+  width: 100%;
+  height: 120px;
+  border: 2px solid #459298;
+  background: none;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  outline: none;
+  font-size: 14px;
+  font-family: Georgia, "Times New Roman", serif;
+}
+.contato-form button {
+  padding: 7px 40px;
+  background: none;
+}
+.contato-dados span {
+  display: block;
+  font-size: 18px;
+  line-height: 30px;
+  font-family: Georgia, "Times New Roman", serif;
+}
+.contato-dados span:nth-of-type(even) {
+  margin-bottom: 30px;
+}
+.contato-dados ul {
+  margin-top: 10px;
+}
+.contato-dados ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+.contato-dados ul li a {
+  border: 3px solid #fec63e;
+  display: block;
+  padding: 5px;
+}
+.contato-dados ul li a:hover {
+  border-color: #000;
+}
+.mapa {
+  padding-bottom: 40px;
+}
